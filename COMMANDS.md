@@ -62,7 +62,7 @@ Well, you asked for it!
 
 
 | Commands | Description |
-| :-------------| :---|
-| `$ docker run nginx`   | If you don't have the Nginx Docker image locally, Docker will download it from Docker Hub, which is the default public registry for Docker images. Docker will then start a container based on the Nginx image, using the default settings. This will launch the Nginx web server and expose it on port 80. |
+|----------------------------|:---:|
+| `$ docker run nginx`| If you don't have the Nginx Docker image locally, Docker will download it from Docker Hub, which is the default public registry for Docker images. Docker will then start a container based on the Nginx image, using the default settings. This will launch the Nginx web server and expose it on port 80. |
 | engine | engine to be used for processing templates. Handlebars is the default. |
 | ext    | extension to be used for dest files. |
