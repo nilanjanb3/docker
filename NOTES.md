@@ -24,13 +24,13 @@ Docker containers are based on Docker images, which are essentially snapshots of
 
 With Docker, developers can easily create, deploy, and scale their applications across different environments, including on-premise servers, public clouds, and hybrid cloud environments. Docker also offers a rich ecosystem of tools and services, including Docker Compose, Docker Swarm, and Kubernetes, that can be used to orchestrate and manage containers at scale.
 
-> Docker is based on **LCX** containerization technology
+> *Docker is based on **LCX** containerization technology*
 
-## Virtualization vs Docker
+## <u>Virtualization vs Docker</u>
 
 ![](https://res.cloudinary.com/practicaldev/image/fetch/s--VoR6BpdY--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/o8gzz4378a6uokadhmsg.png)
 
-## Advantages of Docker
+## <u>Advantages of Docker</u>
 
 - Caching a cluster of containers
 - Flexible resource sharing
@@ -40,10 +40,4 @@ With Docker, developers can easily create, deploy, and scale their applications 
 - Ease of moving and maintaining your applications
 - Better security, less access needed to work with the code running - - - inside containers, and fewer software dependencies
 
-# h1
-
-## h2
-
-### h3
-
-#### h4
+### <u>[Basic Docker Commands](COMMANDS.md)</u>
