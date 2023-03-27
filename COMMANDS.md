@@ -1,9 +1,10 @@
 ## Docker Commands
 ---
 
-```sh
-$ docker run nginx
-```
+<details close>
+
+<summary><code> $ docker run nginx</code></summary>
+<br>
 The command "docker run nginx" is used to run a Docker container with the Nginx web server.
 
 Here's what happens when you execute this command:
@@ -15,171 +16,429 @@ Docker will then start a container based on the Nginx image, using the default s
 Once the container is running, you can access the Nginx web server by opening a web browser and navigating to http://localhost.
 
 If you want to stop the container, you can press Ctrl+C in the terminal or execute the "docker stop" command followed by the container ID or name. For example, "docker stop my-nginx-container".
+</details>
 
-```sh
-$ docker ps
-```
+<details close>
 
-```sh
-$ docker ps -a
-```
+<summary><code> $ docker ps</code></summary>
+<br>
+Well, you asked for it!
+</details>
+<details close>
 
-```sh
-$ docker stop <container id/name>
-```
+<summary><code> $ docker ps -a</code></summary>
+<br>
+Well, you asked for it!
+</details>
+<details close>
 
-```sh
-$ docker rm <container id/name>
-```
+<summary><code> $ docker stop </code></summary>
+<br>
+Well, you asked for it!
+</details>
 
-```sh
-$ docker images
-```
+<details close>
 
-```sh
-$ docker rmi <image name>
-```
+<summary><code> $ docker rm [container id/name]</code></summary>
+<br>
+Well, you asked for it!
+</details>
 
-```sh
-$ docker pull <image name>
-```
+<details close>
 
-```sh
+<summary><code> $ docker rmi [image id/name]</code></summary>
+<br>
+Well, you asked for it!
+</details>
 
-```
+<details close>
 
-```sh
+<summary><code> $ docker pull [image name]</code></summary>
+<br>
+Well, you asked for it!
+</details>
 
-```
+<details close>
 
-```sh
+<summary><code> $ docker run busybox sleep 10  </code></summary>
+<br>
+Well, you asked for it!
+</details>
 
-```
+<details close>
 
-```sh
+<summary><code> $ docker exec [container name/id] cat /etc/hosts  </code></summary>
+<br>
+Well, you asked for it!
+</details>
 
-```
+<details close>
 
-```sh
+<summary><code> $ docker run -d [image name/id]  </code></summary>
+<br>
+Well, you asked for it!
+</details>
 
-```
+<details close>
 
-```sh
+<summary><code> $ docker attach [container name/id]  </code></summary>
+<br>
+Well, you asked for it!
+</details>
 
-```
+<details close>
 
-```sh
+<summary><code> $ docker run -it [image id/name] /bin/bash  </code></summary>
+<br>
+Well, you asked for it!
+</details>
 
-```
+<details close>
 
-```sh
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
 
-```
+<details close>
 
-```sh
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
 
-```
+<details close>
 
-```sh
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
 
-```
+<details close>
 
-```sh
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
 
-```
+<details close>
 
-```sh
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
 
-```
+<details close>
 
-```sh
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
 
-```
+<details close>
 
-```sh
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
 
-```
+<details close>
 
-```sh
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
 
-```
+<details close>
 
-```sh
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
 
-```
+<details close>
 
-```sh
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
 
-```
+<details close>
 
-```sh
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
 
-```
+<details close>
 
-```sh
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
 
-```
+<details close>
 
-```sh
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
 
-```
+<details close>
 
-```sh
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
 
-```
+<details close>
 
-```sh
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
 
-```
+<details close>
 
-```sh
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
 
-```
+<details close>
 
-```sh
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
 
-```
+<details close>
 
-```sh
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
 
-```
+<details close>
 
-```sh
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
 
-```
+<details close>
 
-```sh
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
 
-```
+<details close>
 
-```sh
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
 
-```
+<details close>
 
-```sh
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
 
-```
+<details close>
 
-```sh
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
 
-```
+<details close>
 
-```sh
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
 
-```
+<details close>
 
-```sh
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
 
-```
+<details close>
 
-```sh
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
 
-```
+<details close>
 
-```sh
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
 
-```
+<details close>
 
-```sh
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
 
-```
+<details close>
+
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
+
+<details close>
+
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
+
+<details close>
+
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
+
+<details close>
+
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
+
+<details close>
+
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
+
+<details close>
+
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
+
+<details close>
+
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
+
+<details close>
+
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
+
+<details close>
+
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
+
+<details close>
+
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
+
+<details close>
+
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
+
+<details close>
+
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
+
+<details close>
+
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
+
+<details close>
+
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
+
+<details close>
+
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
+
+<details close>
+
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
+
+<details close>
+
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
+
+<details close>
+
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
+
+<details close>
+
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
+
+<details close>
+
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
+
+<details close>
+
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
+
+<details close>
+
+<summary><code> $  </code></summary>
+<br>
+Well, you asked for it!
+</details>
