@@ -62,7 +62,105 @@ Well, you asked for it!
 
 
 | Commands | Description |
-|----------------------------|:---:|
-| `$ docker run nginx`| If you don't have the Nginx Docker image locally, Docker will download it from Docker Hub, which is the default public registry for Docker images. Docker will then start a container based on the Nginx image, using the default settings. This will launch the Nginx web server and expose it on port 80. |
+|:----------------------------|---|
+| $ docker run nginx| If you don't have the Nginx Docker image locally, Docker will download it from Docker Hub, which is the default public registry for Docker images. Docker will then start a container based on the Nginx image, using the default settings. This will launch the Nginx web server and expose it on port 80. |
 | engine | engine to be used for processing templates. Handlebars is the default. |
 | ext    | extension to be used for dest files. |
+
+
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top;a}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg" style="undefined;table-layout: fixed; width: 1325px">
+<colgroup>
+<col style="width: 51px">
+<col style="width: 271px">
+<col style="width: 1003px">
+</colgroup>
+<thead>
+  <tr>
+    <th class="tg-0pky"><span style="font-weight:bold">Sl No</span></th>
+    <th class="tg-0pky"><span style="font-weight:bold">Command</span></th>
+    <th class="tg-0lax"><span style="font-weight:bold">Explanation</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky"><code>$ docker run nginx</code></td>
+    <td class="tg-0lax">If you don't have the Nginx Docker image locally, Docker will download it from Docker Hub, which is the default public registry for Docker images. Docker will then start a container based on the Nginx image, using the default settings. This will launch the Nginx web server and expose it on port 80.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"><code>$ </code></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+</tbody>
+</table>
