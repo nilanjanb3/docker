@@ -1,6 +1,5 @@
 # Docker Notes
 
----
 
 ### What is Containerization ?
 
@@ -41,3 +40,51 @@ With Docker, developers can easily create, deploy, and scale their applications 
 - Better security, less access needed to work with the code running - - - inside containers, and fewer software dependencies
 
 ### <u>[Basic Docker Commands](COMMANDS.md)</u>
+
+
+## <u>Dockerfile</u>
+
+Docker can build images automatically by reading the instructions from a Dockerfile. A Dockerfile is a text document that contains all the commands a user could call on the command line to assemble an image. This page describes the commands you can use in a Dockerfile.
+
+Format
+Here is the format of the Dockerfile:
+
+
+> `# Comment`
+<br>
+> INSTRUCTION arguments
+
+The instruction is not case-sensitive. However, convention is for them to be UPPERCASE to distinguish them from arguments more easily.
+
+Docker runs instructions in a Dockerfile in order. A Dockerfile must begin with a FROM instruction. This may be after parser directives, comments, and globally scoped ARGs. The FROM instruction specifies the Parent Image from which you are building. FROM may only be preceded by one or more ARG instructions, which declare arguments that are used in FROM lines in the Dockerfile.
+
+Docker treats lines that begin with # as a comment, unless the line is a valid parser directive. A # marker anywhere else in a line is treated as an argument. This allows statements like:
+
+
+> ` Comment`
+<br>
+> RUN echo 'we are running some # of cool things'
+
+Comment lines are removed before the Dockerfile instructions are executed, which means that the comment in the following example is not handled by the shell executing the echo command, and both examples below are equivalent:
+
+```sh
+RUN echo hello \
+# comment
+world
+```
+
+```sh
+RUN echo hello \
+world
+```
+### Some Dockerfile Instructions
+---
+#### FROM
+>The FROM instruction initializes a new build stage and sets the Base Image for subsequent instructions. As such, a valid Dockerfile must start with a FROM instruction. The image can be any valid image – it is especially easy to start by pulling an image from the Public Repositories.
+
+#### RUN
+>RUN has 2 forms:
+>* RUN <command> (shell form, the command is run in a shell, which by default is /bin/sh -c on Linux or cmd /S /C on Windows)
+>* RUN ["executable", "param1", "param2"] (exec form)
+<br>
+>The RUN instruction will execute any commands in a new layer on top of the current image and commit the results. The resulting committed image will be used for the next step in the Dockerfile.
