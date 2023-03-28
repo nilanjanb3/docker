@@ -1,12 +1,23 @@
 # *Top Docker Commands*
 
-Sl No| Commands | Description |
-|----|----------|-------------|
+Sl No| Commands     | Description |
+|----|--------------|--------|
 |1| `$ docker run nginx`| If you don't have the Nginx Docker image locally, Docker will download it from Docker Hub, which is the default public registry for Docker images. Docker will then start a container based on the Nginx image, using the default settings. This will launch the Nginx web server and expose it on port 80.|
 |2| `$ docker ps` | The docker ps command is used to list all the running containers on a Docker host. It provides information such as the container ID, image used to create the container, command being run in the container, container status, ports being exposed, and the name of the container.|
 |3| $` docker ps -a` | The docker ps -a command is used to list all the containers on a Docker host, including running and stopped containers. It provides similar information to docker ps, such as container ID, image used to create the container, command being run in the container, container status, ports being exposed, and the name of the container.|
-|4|`$`||
-|5|`$`||
+|4|`$ docker stop <container id/name>`|The docker stop command is used to stop one or more running Docker containers.|
+|5|`$ docker images`|The docker images command is used to list all the Docker images that are currently stored on your system.|
+|6|`$ docker rmi <image id/name>`|The docker rmi command is used to remove one or more Docker images from your system|
+|7|`$ docker pull <image name>`|Download an image from a registry|
+|8|`$ docker run busybox sleep 5`|The docker run busybox sleep 5 command will create a new Docker container based on the busybox image and run the sleep command within it for a duration of 5 seconds.|
+|9|`$ docker exec <container id/name> cat /etc/hosts`|The docker exec < container id/name> cat /etc/hosts command is used to run the cat /etc/hosts command inside a running Docker container with the specified ID or name.|
+|10|`$ docker run -d nginx`|The docker run -d nginx command is used to create and start a new Docker container based on the nginx image, and run it in the background (detached mode).|
+|11|`$ docker attach <container id/name>`|The docker attach < container id/name> command is used to attach your terminal to a running Docker container with the specified ID or name, allowing you to interact with the container's command line interface.|
+|12|`$ docker rm <container id/name>`|Remove one or more containers|
+|13|`$ docker ps -q`|The docker ps -q command is used to list the IDs of all running Docker containers in a bare format, meaning it only outputs the container IDs without any additional information.|
+|14|`$ docker stop $(docker ps -q)`|The docker stop $(docker ps -q) command is used to stop all running Docker containers on your system.|
+|15|`$ docker rm $(docker ps -a -q)`|The docker rm $(docker ps -a -q) command is used to remove all Docker containers on your system, including stopped containers.|
+|16|`$`||
 ||`$`||
 ||`$`||
 ||`$`||
@@ -20,14 +31,4 @@ Sl No| Commands | Description |
 ||`$`||
 ||`$`||
 ||`$`||
-||`$`||
-||`$`||
-||`$`||
-||`$`||
-||`$`||
-||`$`||
-||`$`||
-||`$`||
-||`$`||
-||`$`||
-||`$`||
+
