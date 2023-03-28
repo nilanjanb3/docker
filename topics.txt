@@ -1,0 +1,7 @@
+1. docker instro
+2. basic docker commands
+3. how to dockerize an app, basic docker instructions
+4. environment variables
+5. --link
+6. docker compose and difference among versions
+7. CMD vs ENTRYPOINT
