@@ -80,9 +80,9 @@ Well, you asked for it!
 </style>
 <table class="tg" style="undefined;table-layout: fixed; width: 1325px">
 <colgroup>
-<col style="width: 51px">
-<col style="width: 271px">
-<col style="width: 1003px">
+<col style="width: 10%">
+<col style="width: 30%">
+<col style="width: 60%">
 </colgroup>
 <thead>
   <tr>
