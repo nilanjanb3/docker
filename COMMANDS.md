@@ -30,16 +30,16 @@ Sl No| Commands     | Description |
 |26|`$ docker run -v data_volume2:/var/lib/mysql mysql`||
 |27|`$ docker run -v /opt/data:/var/lib/mysql mysql`||
 |28|`$ docker run --mount type=bind,source="$(pwd)" target,target=/app nginx:latest`||
-||`$`||
-||`$`||
-||`$`||
-||`$`||
-||`$`||
-||`$`||
-||`$`||
-||`$`||
-||`$`||
-||`$`||
+|29|`$ docker network ls`||
+|30|`$ docker network create --driver=bridge --subnet=182.18.0.0/16 demonet`||
+|31|`$ docker run -d --network=demonet nginx`||
+|32|`$ docker inspect 930`||
+|33|`$ docker login`||
+|34|`$ docker login private-registry.io`||
+|35|`$ docker run -h 192.168.0.10 nginx`||
+|36|`$ docker tag busybox localhost:5000/busybox:local`||
+|37|`$ docker push localhost:5000/busybox:local`||
+|38|`$ docker run localhost:5000/busybox:local echo "hello from private registry"`||
 ||`$`||
 ||`$`||
 ||`$`||
