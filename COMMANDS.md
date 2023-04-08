@@ -40,7 +40,7 @@ Sl No| Commands     | Description |
 |36|`$ docker tag busybox localhost:5000/busybox:local`||
 |37|`$ docker push localhost:5000/busybox:local`||
 |38|`$ docker run localhost:5000/busybox:local echo "hello from private registry"`||
-||`$`||
+|39|`$ git remote agg origin <origin-url>`||
 ||`$`||
 ||`$`||
 ||`$`||
